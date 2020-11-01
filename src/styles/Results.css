@@ -1,0 +1,24 @@
+.Results {
+    width: 80%;
+    height: 100%;
+    position: relative;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.Results-gameover {
+    font-size: 5em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.Results-name {
+    font-size: 2.5em;
+    
+}
+
+.Results-score {
+    font-size: 1.7em;
+}

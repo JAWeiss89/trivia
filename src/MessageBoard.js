@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles/MessageBoard.css'
 
 const MessageBoard = ({message}) => {
     return (

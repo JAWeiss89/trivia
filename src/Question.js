@@ -1,5 +1,6 @@
 import React from 'react';
 import shuffleArr from './helpers/shuffleArr';
+import './styles/Question.css'
 
 const Question = ({question, increaseScore, increaseAttempts, revealAnswer, setMessage}) => {
     const answers = [question.correct, question.incorrect[0], question.incorrect[1], question.incorrect[2]];
@@ -21,8 +22,8 @@ const Question = ({question, increaseScore, increaseAttempts, revealAnswer, setM
     // console.log("Question Component Rendered")
 
 return (
-    <div>
-        <h3>{question.question}</h3>
+    <div className="Question">
+        <p>{question.question}</p>
         <ul>
             {shuffledAnswers.map(answer => {
                 return <li onClick={checkIfCorrect} key={answer}>{answer}</li>

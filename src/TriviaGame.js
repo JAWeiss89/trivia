@@ -5,6 +5,7 @@ import Results from './Results';
 import MessageBoard from './MessageBoard';
 import questions from './helpers/Apprentice_TandemFor400_Data.json'
 import randomChoice from './helpers/randomChoice';
+import './styles/TriviaGame.css'
 
 const TriviaGame = ({name}) => {
     let [score, setScore] = useState(0);
@@ -32,7 +33,7 @@ const TriviaGame = ({name}) => {
     }
 
     const increaseScore = () => {
-        setScore(score => score + 1);
+        setScore(score => score + 10);
     }
     const increaseAttempts = () => {
         if (attempts < 9 ) {

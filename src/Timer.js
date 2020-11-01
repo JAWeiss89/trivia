@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import './styles/Timer.css'
 
 const Timer = ({increaseAttempts, questionsLeft, revealAnswer, setMessage, answer, setTimeOutKey, setIntervalKey}) => {
     let [seconds, setSeconds] = useState(10);
@@ -25,7 +26,7 @@ const Timer = ({increaseAttempts, questionsLeft, revealAnswer, setMessage, answe
         clearInterval(intervalId);
       }
     }, [questionsLeft])  
-    return <h1>{seconds}</h1>
+    return <p className={seconds < 4 ? "timer warning" : "timer tandem" }><i class="far fa-clock"></i>{seconds}</p>
 }
 
 export default Timer;

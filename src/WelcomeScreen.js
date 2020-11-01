@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './styles/WelcomeScreen.css';
 
 const WelcomeScreen = ({setName, setBeginGame}) => {
     const [nameField, setNameField] = useState("");
@@ -14,9 +15,9 @@ const WelcomeScreen = ({setName, setBeginGame}) => {
         
         <div className="WelcomeScreen">
             <h1><span className="tandem">tandem</span>trivia</h1>
-            <form onSubmit={handleSubmit}>
+            <form autoComplete="off" onSubmit={handleSubmit}>
                 <input type="text" name="name" placeholder="name" value={nameField} onChange={handleChange}></input>
-                <button>start</button>
+                <button className={nameField ? "active":"none" }>start</button>
             </form>
         </div>
     )

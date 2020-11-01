@@ -1,0 +1,13 @@
+.TriviaGame {
+    width: 80%;
+    height: 80%;
+    position: relative;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.TriviaGame > div {
+    width: 100%;
+}

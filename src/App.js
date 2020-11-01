@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import TriviaGame from './TriviaGame';
 import WelcomeScreen from './WelcomeScreen';
-import './App.css';
+import './styles/App.css';
 
 function App() {
   let [beginGame, setBeginGame] = useState(false);
@@ -10,9 +10,13 @@ function App() {
   return (
     <div className="App">
       {beginGame 
-      ? <TriviaGame name={name}/>
+      ? <>
+        <h2><span className="tandem">tandem</span>trivia</h2>
+        <TriviaGame name={name}/>
+        </>
       : <WelcomeScreen setName={setName} setBeginGame={setBeginGame}/>
       }
+      <p className="credits">Designed & Developed by <a href="https://www.JorgeWeiss.com">Jorge Weiss</a></p>
     </div>
   );
 }
