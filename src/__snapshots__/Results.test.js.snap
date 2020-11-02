@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Results"
+  >
+    <p
+      class="Results-gameover"
+    >
+      game over
+    </p>
+    <p
+      class="Results-name"
+    >
+      Great game, 
+      <span
+        class="tandem"
+      />
+      !
+    </p>
+    <p
+      class="Results-score"
+    >
+      Your score is 
+    </p>
+  </div>
+</DocumentFragment>
+`;

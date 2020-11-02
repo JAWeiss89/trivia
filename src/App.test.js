@@ -13,7 +13,7 @@ test("matches snapshot", () => {
 });
 
 // other tests
-test ("correct elements are present on load", () => {
+test("correct elements are present on load", () => {
   const {queryByText, queryByPlaceholderText} = render(<App />)
 
   //expect WelcomeScreen to show on initial render
@@ -21,7 +21,7 @@ test ("correct elements are present on load", () => {
   expect(queryByPlaceholderText("name")).toBeInTheDocument();
 
 })
-test ("submits form and goes to game screen", () => {
+test("submits form and goes to game screen", () => {
   const {queryByText, queryByPlaceholderText} = render(<App />)
 
 

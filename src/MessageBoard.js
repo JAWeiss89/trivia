@@ -4,7 +4,7 @@ import './styles/MessageBoard.css'
 const MessageBoard = ({message}) => {
     return (
         <div className="MessageBoard">
-            <p>{message}</p>
+            <p className="MessageBoard-message">{message}</p>
         </div>
     )
 }
