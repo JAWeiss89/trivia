@@ -1,5 +1,6 @@
 <img src="./public/banner.png">  
- `tandemtrivia` is the best way and easiest way to play trivia online. 
+
+`tandemtrivia` is the best way and easiest way to play trivia online. 
 
 ![](https://img.shields.io/badge/Code-React-informational?style=flat&logo=react&logoColor=white&color=blue)
 
@@ -9,8 +10,9 @@
 
 ## installation and tests
 
-Change directory to root and then run the following command:  
-### `npm install`
+Change directory to root and then run the following command
+
+### `npm install`  
 <hr>
 
 Once all Dependencies have been installed the command below will run the application in your default browser
