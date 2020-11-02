@@ -13,7 +13,7 @@ const Question = ({question, increaseScore, increaseAttempts, revealAnswer, setM
             // increaseAttempts();
             revealAnswer();
         } else {
-            console.log("Not Correct :( ")
+
             // increaseAttempts();
             setMessage(`Not Correct :( - The correct answer is ${question.correct}`)
             revealAnswer();
@@ -26,7 +26,7 @@ return (
         <p>{question.question}</p>
         <ul>
             {shuffledAnswers.map(answer => {
-                return <li onClick={checkIfCorrect} key={answer}>{answer}</li>
+                return <li role="listitem" onClick={checkIfCorrect} key={answer}>{answer}</li>
             })}
         </ul>
 

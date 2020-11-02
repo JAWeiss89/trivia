@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div
+      class="WelcomeScreen"
+    >
+      <h1>
+        <span
+          class="tandem"
+        >
+          tandem
+        </span>
+        trivia
+      </h1>
+      <form
+        autocomplete="off"
+      >
+        <input
+          name="name"
+          placeholder="name"
+          type="text"
+          value=""
+        />
+        <button
+          class="none"
+        >
+          start
+        </button>
+      </form>
+    </div>
+    <p
+      class="credits"
+    >
+      Designed & Developed by 
+      <a
+        href="https://www.JorgeWeiss.com"
+      >
+        Jorge Weiss
+      </a>
+    </p>
+  </div>
+</DocumentFragment>
+`;

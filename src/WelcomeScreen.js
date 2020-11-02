@@ -8,8 +8,11 @@ const WelcomeScreen = ({setName, setBeginGame}) => {
     }
     const handleSubmit = (e) => {
         e.preventDefault();
-        setName(nameField);
-        setBeginGame(true);
+        if (nameField) {
+            setName(nameField);
+            setBeginGame(true);
+        }
+
     }
     return (
         

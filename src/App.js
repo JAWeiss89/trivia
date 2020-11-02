@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       {beginGame 
       ? <>
-        <h2><span className="tandem">tandem</span>trivia</h2>
+        <a href="/"><h2><span className="tandem">tandem</span>trivia</h2></a>
         <TriviaGame name={name}/>
         </>
       : <WelcomeScreen setName={setName} setBeginGame={setBeginGame}/>
