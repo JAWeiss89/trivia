@@ -3,7 +3,8 @@ import Question from './Question';
 import Dashboard from './Dashboard';
 import Results from './Results';
 import MessageBoard from './MessageBoard';
-import questions from './helpers/Apprentice_TandemFor400_Data.json'
+import questions from './helpers/Apprentice_TandemFor400_Data.json';
+// import questions from './helpers/sampleQuestions.json';
 import randomChoice from './helpers/randomChoice';
 import './styles/TriviaGame.css'
 
