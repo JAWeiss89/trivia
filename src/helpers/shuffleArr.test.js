@@ -1,4 +1,4 @@
-import shuffleArr from './helpers/shuffleArr';
+import shuffleArr from './shuffleArr';
 
 test("shuffleArr should not affect original array", () => {
     const arr1=['a', 'b', 'c', 'd', 'e'];
@@ -16,7 +16,7 @@ test("shuffledArr should return a copy of an array with its contents shuffled", 
 
     const shuffledArr2 = shuffleArr(arr2);
     expect(arr2.length).toEqual(shuffledArr2.length);
-    expect(arr2.includes(shuffledArr2[0]));
+    expect(arr2.includes(shuffledArr2[0])).toBeTruthy();
 
 })
 
