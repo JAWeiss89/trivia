@@ -24,6 +24,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 If you make any changes to any of the files while the app is running, Create React app will automatically re-run the application with the updated changes. 
 <hr>
 The command below will cause all the tests to run.
+
 ### `npm test`
 
 ## About testing
